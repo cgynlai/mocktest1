@@ -5,37 +5,22 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Book {
+public class Book1 {
     private String bookId;
     private String title;
     private int price;
     private LocalDate publishedDate;
 
-    public Book() {
-    }
 
-    public Book(String bookId, String title, int price, LocalDate publishedDate) {
+
+    public Book1(String bookId, String title, int price, LocalDate publishedDate) {
         this.bookId = bookId;
         this.title = title;
         this.price = price;
         this.publishedDate = publishedDate;
     }
 
-    public void testmethod(Book[] book) {
-       /* List<Book> list = Arrays.asList(new Book[]{
-                new Book("123", "Ghost", 150, LocalDate.now())});*/
 
-        List<Book> list = new ArrayList<>();
-        List<Book> books = Arrays.asList(book);
-
-        list.addAll(books);
-        System.out.println(list instanceof List);
-        System.out.println(list instanceof ArrayList);
-
-
-        System.out.println(Arrays.asList(book));
-
-    }
 
 
     public String getBookId() {

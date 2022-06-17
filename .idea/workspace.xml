@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="825baa9b-d0cb-495f-921e-49ff27de24dd" name="Changes" comment="1st commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/Ebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cyl/test/dummy/Dumtest.java" afterDir="false" />
+    <list default="true" id="825baa9b-d0cb-495f-921e-49ff27de24dd" name="Changes" comment="2nd commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/Book1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cyl/test/dummy/FakeBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cyl/test/dummy/FakeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyl/mockito/test_doubles/fake/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cyl/test/dummy/Dumtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cyl/test/dummy/Dumtest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,24 +46,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.cyl.mockito.test_doubles.fake" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cyl.mockito.test_doubles.fake" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FakeTest.testFake">
     <configuration name="Dumtest.testDummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MockTest1" />
       <extension name="coverage">
@@ -76,8 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FakeTest.testFake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MockTest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cyl.test.dummy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cyl.test.dummy" />
+      <option name="MAIN_CLASS_NAME" value="com.cyl.test.dummy.FakeTest" />
+      <option name="METHOD_NAME" value="testFake" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FakeTest.testFake" />
         <item itemvalue="JUnit.Dumtest.testDummy" />
       </list>
     </recent_temporary>
@@ -93,7 +117,8 @@
       <workItem from="1655276803849" duration="2677000" />
       <workItem from="1655282235125" duration="4133000" />
       <workItem from="1655347038803" duration="4281000" />
-      <workItem from="1655379409998" duration="5047000" />
+      <workItem from="1655379409998" duration="6414000" />
+      <workItem from="1655442777482" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1655287727119</created>
@@ -102,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655287727119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit">
+      <created>1655394255476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655394255476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +153,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

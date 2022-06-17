@@ -20,7 +20,8 @@ public class Dumtest {
         //arrlist.add(12.0);
 
         List<Book> bookList = new ArrayList<>();
-        bookList.add(new Ebook("ebook1"));
+        bookList.add(new Ebook("ebook1"));  // not a good practice to add subtype, elements of list should be identical
+        // so that when iterating the elements we can use same method to do same thing.
         bookList.add(new Book());
         System.out.println("######");
         System.out.println(bookList);
